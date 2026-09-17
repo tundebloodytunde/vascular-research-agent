@@ -1,6 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "echo 'Skipping build - using TypeScript natively'",
   "crons": [
     {
       "path": "/api/research-digest",
