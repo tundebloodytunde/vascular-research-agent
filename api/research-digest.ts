@@ -1,4 +1,4 @@
-import { VercelRequest, VercelResponse } from "@vercel/functions";
+import { type VercelRequest, type VercelResponse } from "@vercel/node";
 
 // Types for research data
 interface ResearchItem {
