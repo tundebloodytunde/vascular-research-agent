@@ -1,7 +1,6 @@
 {
   "name": "vascular-research-agent",
   "version": "1.0.0",
-  "description": "Daily vascular surgery research agent",
   "scripts": {
     "dev": "vercel dev"
   },
