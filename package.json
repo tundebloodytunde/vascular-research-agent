@@ -1,0 +1,21 @@
+{
+  "name": "vascular-research-agent",
+  "version": "1.0.0",
+  "description": "Daily autonomous agent for monitoring vascular surgery research",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc && echo 'Build complete'",
+    "start": "node dist/api/research-digest.js",
+    "deploy": "vercel --prod",
+    "test": "echo 'Testing locally...' && curl http://localhost:3000/api/research-digest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@vercel/functions": "^1.4.0",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

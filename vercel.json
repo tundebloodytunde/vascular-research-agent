@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "crons": [
+    {
+      "path": "/api/research-digest",
+      "schedule": "0 8 * * *"
+    }
+  ]
+}
