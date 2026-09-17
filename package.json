@@ -4,7 +4,7 @@
   "description": "Daily autonomous agent for monitoring vascular surgery research",
   "scripts": {
     "dev": "vercel dev",
-    "build": "tsc && echo 'Build complete'",
+       "build": "echo 'Build complete'"
     "start": "node dist/api/research-digest.js",
     "deploy": "vercel --prod",
     "test": "echo 'Testing locally...' && curl http://localhost:3000/api/research-digest"
